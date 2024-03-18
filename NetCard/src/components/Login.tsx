@@ -24,6 +24,7 @@ const Login = () => {
           id="privateKey"
           placeholder="Private Key"
           variant="outlined"
+          type='password'
           InputProps={{
             startAdornment: (
               <InputAdornment position="start">
