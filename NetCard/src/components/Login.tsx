@@ -34,7 +34,7 @@ const Login = () => {
           value={privateKeyInput}
           onChange={(e) => setPrivateKeyInput(e.target.value)}
         />
-        <Button type="submit">Login</Button>
+        <Button type="submit" variant="text" sx={{margin: 1}}>Login</Button>
         <p className="read-the-docs">
         Powered By NOSTR
       </p>
